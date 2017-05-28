@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SbxPostCopyFramework</fullName>
+    <description>A framework to help automate post sandbox refresh and create steps utilising custom metadata types.</description>
+    <types>
+        <members>HttpResponseGenerator</members>
+        <members>PostSbxCreateManager</members>
+        <members>PostSbxCreateManagertest</members>
+        <members>PostSbxRefreshManager</members>
+        <members>PostSbxRefreshManagertest</members>
+        <members>SamplePostSbxCreateScript</members>
+        <members>SamplePostSbxExceptionScript</members>
+        <members>SamplePostSbxRefreshScript</members>
+        <members>SbxPostScriptWorker</members>
+        <members>SbxPostScriptWorkerFactory</members>
+        <members>SbxPostScriptWorkerFactorytest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SbxPostScriptTask__mdt.Active__c</members>
+        <members>SbxPostScriptTask__mdt.OrderNumber__c</members>
+        <members>SbxPostScriptTask__mdt.Usage__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>SHELL_IS_MAKING_HTTP_CALLOUT</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>SbxPostScriptTask.SamplePostSbxCreateScript</members>
+        <members>SbxPostScriptTask.SamplePostSbxExceptionScript</members>
+        <members>SbxPostScriptTask.SamplePostSbxRefreshScript</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>SbxPostScriptTask__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>SbxPostScriptTask__mdt-Shell_SbxPostScriptTask Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>39.0</version>
+</Package>
