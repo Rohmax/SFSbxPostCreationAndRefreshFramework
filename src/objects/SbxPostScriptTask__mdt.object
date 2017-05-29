@@ -24,29 +24,24 @@
         <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <label>Usage</label>
+        <picklist>
+            <picklistValues>
+                <fullName>PostRefreshScript</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PostCreateScript</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PostScript</fullName>
+                <default>true</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
         <required>false</required>
         <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>PostRefreshScript</fullName>
-                    <default>false</default>
-                    <label>PostRefreshScript</label>
-                </value>
-                <value>
-                    <fullName>PostCreateScript</fullName>
-                    <default>false</default>
-                    <label>PostCreateScript</label>
-                </value>
-                <value>
-                    <fullName>PostScript</fullName>
-                    <default>true</default>
-                    <label>PostScript</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <label>SbxPostScriptTask</label>
     <pluralLabel>SbxPostScriptTasks</pluralLabel>

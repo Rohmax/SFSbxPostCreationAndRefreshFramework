@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>SbxPostCopyFramework</fullName>
-    <description>A framework to help automate post sandbox refresh and create steps utilising custom metadata types.</description>
     <types>
         <members>HttpResponseGenerator</members>
         <members>PostSbxCreateManager</members>
@@ -23,7 +21,7 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>SHELL_IS_MAKING_HTTP_CALLOUT</members>
+        <members>IS_MAKING_HTTP_CALLOUT</members>
         <name>CustomLabel</name>
     </types>
     <types>
@@ -41,8 +39,8 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>SbxPostScriptTask__mdt-Shell_SbxPostScriptTask Layout</members>
+        <members>SbxPostScriptTask__mdt-SbxPostScriptTask Layout</members>
         <name>Layout</name>
     </types>
-    <version>39.0</version>
+    <version>36.0</version>
 </Package>

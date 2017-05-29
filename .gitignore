@@ -3,4 +3,5 @@
 salesforce.schema
 Referenced Packages
 .DS_Store
-
+/config
+SFSbxPostCreationAndRefreshFramework\.sublime-project

@@ -21,7 +21,7 @@ private class PostSbxCreateManagertest
 		/*In case you post script is going to make a callout, this integration test
 		should be having a mock callout to support that
 		*/
-		if(System.Label.SHELL_IS_MAKING_HTTP_CALLOUT.toLowerCase() == 'true') {
+		if(System.Label.IS_MAKING_HTTP_CALLOUT.toLowerCase() == 'true') {
 			Test.setMock(HttpCalloutMock.class, new HttpResponseGenerator(200, 'OK', '{{"key1":"value1", "crumbRequestField":"test"}}', new Map<String, String>{'Content-Type'=>'application/json'}));
 		}
 		/**

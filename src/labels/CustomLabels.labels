@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>SHELL_IS_MAKING_HTTP_CALLOUT</fullName>
-        <categories>Sbx Post Create/Refresh Automation Package</categories>
+        <fullName>IS_MAKING_HTTP_CALLOUT</fullName>
+        <categories>SFSbxPostCreationAndRefreshFramework</categories>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>SHELL_IS_MAKING_HTTP_CALLOUT</shortDescription>
+        <shortDescription>IS MAKING HTTP CALLOUT</shortDescription>
         <value>false</value>
     </labels>
 </CustomLabels>

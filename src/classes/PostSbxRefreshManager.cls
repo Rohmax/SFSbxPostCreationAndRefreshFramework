@@ -1,9 +1,4 @@
 /**
-*   The Shell sandbox-post-copy framework is an adapted and tweaked version of the 
-*   open source project managed in Github (https://github.com/GSA/sf-sandbox-post-copy)
-*   by Dereck Benner and team
-*
-*   Shell_PostSbxRefreshManager
 *
 *   @author Rohan Gore
 *   
